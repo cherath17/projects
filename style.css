@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+div{
+    /* border: black 2px dashed; */
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;  
+}
+ul li{ 
+    background: url();
+    margin: 20px;
+    padding: 1px;
+    list-style:disc;
+}
+
+h1{
+    color: blanchedalmond;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.big{
+    background: url('./big.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: antiquewhite;
+    
+}
+.medium{
+    background: url('./stone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: antiquewhite;
+
+
+    /* background: linear-gradient(to top,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)),url( './stone.jpg')center/cover no-repeat fixed;
+color:antiquewhite; */
+}
+.small{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)),url( './pexels-picography-4784.jpg')center/cover no-repeat fixed;
+color:antiquewhite;
+}
